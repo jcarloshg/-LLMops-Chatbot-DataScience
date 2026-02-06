@@ -1,0 +1,98 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.prod
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# Code Analysis & Type Checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.flake8
+.pylintrc
+
+# Logs
+*.log
+logs/
+*.out
+
+# ChromaDB Vector Database
+# Comment out the line below if chroma_db should be committed
+chroma_db/
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Package Files (pip/poetry)
+.poetry.lock
+poetry.lock
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.orig
