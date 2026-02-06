@@ -153,3 +153,31 @@ Before we dive into the details, here is the high-level flow of how an LLM proje
 
 <br>• **Set Budget Alerts:** API costs can skyrocket overnight. Set hard limits. |
 | **Learning Resources** | **[LangChain/LangSmith Walkthroughs](https://docs.smith.langchain.com/)** – Great for seeing how tracing works in practice. |
+
+# Small Models:
+
+- ollama pull mistral
+- ollama pull neural-chat
+- ollama pull dolphin-mixtral
+
+# ERRORS
+
+## nomic-embed-text model isn't downloaded on your Ollama instance.
+
+```zsh
+# 1. pull nomic-embed-text
+ollama pull nomic-embed-text
+
+# 2. re-run the script
+python3.12 src/ingest.py
+```
+
+![alt text](./DOCS/image.png)
+![alt text](./DOCS/image-1.png)
+
+## the llama3 model used in main.py (line 39) isn't downloaded.
+
+```zsh
+# run
+ollama pull llama3
+```
